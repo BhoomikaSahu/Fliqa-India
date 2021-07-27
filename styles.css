@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+ul li a:hover{
+    font-weight: bold;
+}
+
+nav{
+    display: grid;
+    background-color: #FAEACC;
+    overflow: hidden;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+}
+
+.logo{
+    width: 162px;
+    height: 42px;
+    margin: 8px;
+}
+
+.container{
+    display: flex;
+    margin: 71px;
+    justify-content: space-between;
+}
+
+.about{
+    background-image: url('img/background.svg');
+}
+
+h1{
+    font-style: Medium;
+    font-size: 74px;
+}
+
+center{
+    padding: 123px;
+}
+
+p{
+    padding: 72px;
+    font-size: 31px;
+}
+
+    
